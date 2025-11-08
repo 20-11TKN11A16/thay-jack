@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Lời chúc 20-11 — Lớp 11A16</title>
+  <style>
+    :root{
+      --accent:#ff7a2d;
+      --bg:#0f1724;
+      --card:#ffffffee;
+      --muted:#6b7280;
+    }
+
+    *{box-sizing:border-box}
+
+    html,body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:linear-gradient(180deg,#071024 0%, #0f2b3a 100%);
+      color:#0b1320;
+      overflow-x:hidden;
+    }
+
+    .wrap{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+
+    .card{
+      width:980px;
+      max-width:100%;
+      background:var(--card);
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(2,6,23,0.35);
+      overflow:hidden;
+      display:grid;
+      grid-template-columns:380px 1fr;
+      align-items:center;
+    }
+
+    .photo{
+      padding:20px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+    }
+
+    .photo img{
+      width:100%;
+      border-radius:16px;
+      border:6px solid rgba(255,255,255,0.08);
+      object-fit:cover;
+      max-height:420px;
+    }
+
+    .ribbon{
+      margin-top:12px;
+      background:var(--accent);
+      color:white;
+      padding:8px 12px;
+      border-radius:999px;
+      font-weight:600;
+      font-size:15px;
+    }
+
+    .content{
+      padding:28px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    h1{
+      margin:0;
+      font-size:26px;
+      text-align:center;
+      color:var(--bg);
+    }
+
+    p.lead{
+      text-align:center;
+      margin:10px 0 18px;
+      font-size:18px;
+      color:var(--muted);
+      line-height:1.45;
+    }
+
+    .message{
+      background:white;
+      padding:18px;
+      border-radius:12px;
+      border:1px dashed rgba(0,0,0,0.06);
+      min-height:140px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    }
+
+    .message .text{
+      font-size:18px;
+      line-height:1.5;
+      color:#0b1320;
+      max-width:90%;
+    }
+
+    .meta{
+      margin-top:18px;
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .badge{
+      background:#0b1320;
+      color:#fff;
+      padding:8px 10px;
+      border-radius:8px;
+      font-weight:700;
+    }
+
+    .small{
+      color:var(--muted);
+      font-size:14px;
+      text-align:center;
+    }
+
+    .footer{
+      margin-top:22px;
+      display:flex;
+      justify-content:center;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:white;
+      padding:12px 16px;
+      border-radius:12px;
+      border:0;
+      cursor:pointer;
+      font-weight:700;
+      font-size:16px;
+      text-decoration:none;
+      display:inline-block;
+    }
+
+    .sky{
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+    }
+    .confetti{
+      position:absolute;
+      top:-10px;
+      left:0;
+      width:12px;
+      height:18px;
+      border-radius:2px;
+    }
+
+    @media (max-width:880px){
+      .card{
+        grid-template-columns:1fr;
+        border-radius:14px;
+      }
+
+      .photo{
+        order:2;
+        padding:16px;
+      }
+
+      .content{
+        order:1;
+        padding:20px 16px;
+      }
+
+      h1{
+        font-size:22px;
+      }
+
+      p.lead{
+        font-size:16px;
+      }
+
+      .message .text{
+        font-size:16px;
+      }
+
+      .photo img{
+        max-height:300px;
+        border-radius:14px;
+      }
+
+      .btn{
+        padding:12px 18px;
+        font-size:16px;
+      }
+    }
+
+    @media (max-width:420px){
+      h1{font-size:20px}
+      p.lead{font-size:15px}
+      .message .text{font-size:15px}
+      .small{font-size:13px}
+      .badge{padding:6px 8px}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="card" role="main">
+
+      <div class="photo">
+        <img id="teacherPhoto" alt="Thầy Huỳnh Công Phúc" src="thay-phuc.jpg">
+        <div class="ribbon">Kính tặng Thầy</div>
+        <div style="margin-top:12px;color:var(--muted);font-size:13px;text-align:center">
+          Thầy Huỳnh Công Phúc — Giáo viên bộ môn Hóa<br>Ngày Nhà giáo Việt Nam 20-11
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Lời chúc 20-11 từ lớp A16 (2024-2027) 🎉</h1>
+        <p class="lead">Kính gửi thầy Huỳnh Công Phúc, lớp A16 xin gửi tới thầy đôi lời tri ân nhân dịp 20/11</p>
+
+        <div class="message">
+          <div class="text">
+            Kính chúc thầy luôn mạnh khỏe, hạnh phúc và tràn đầy cảm hứng trong công việc. Cảm ơn thầy đã dìu dắt, truyền cảm hứng và nhiệt huyết cho chúng em. Chúc thầy một ngày 20-11 thật vui vẻ và ý nghĩa!<br><br>
+            <strong>- Lớp A16</strong>
+          </div>
+        </div>
+
+        <div class="meta">
+          <div class="badge">20-11</div>
+          <div class="small">Trường THPT Trần Khai Nguyên - Thành Phố Hồ Chí Minh</div>
+        </div>
+
+        <div class="footer">
+          <button class="btn" id="celebrateBtn">Lời gửi từ A16</button>
+        </div>
+      </div>
+
+      <div class="sky" id="sky"></div>
+
+    </div>
+  </div>
+
+  <script>
+    const sky = document.getElementById('sky');
+
+    function makeConfetti(){
+      const colors=['#ff7a2d','#ffd166','#06d6a0','#118ab2','#ef476f'];
+      for(let i=0;i<60;i++){
+        const el=document.createElement('div');
+        el.className='confetti';
+        el.style.background=colors[Math.floor(Math.random()*colors.length)];
+        el.style.left=Math.random()*100+'%';
+        el.style.top=Math.random()*20+'%';
+        el.style.transform='rotate('+(Math.random()*360)+'deg)';
+        el.style.width=(6+Math.random()*18)+'px';
+        el.style.height=(8+Math.random()*20)+'px';
+        el.style.opacity=0.95;
+        el.style.transition='transform 3s linear, top 3s linear, left 3s linear, opacity 1.5s linear';
+        sky.appendChild(el);
+
+        requestAnimationFrame(()=>{
+          el.style.top=(70+Math.random()*30)+'%';
+          el.style.left=(Math.random()*120-10)+'%';
+          el.style.transform='rotate('+(Math.random()*720)+'deg) translateY(80px)';
+        });
+
+        setTimeout(()=>{el.style.opacity=0;},2600);
+        setTimeout(()=>{el.remove();},4000);
+      }
+    }
+
+    document.getElementById('celebrateBtn').addEventListener('click', () => {
+      makeConfetti();
+      setTimeout(() => {
+        window.location.href = "https://20-11tkn11a16.github.io/L-i-Ch-c-th-y/";
+      }, 800);
+    });
+
+    window.addEventListener('load',()=>setTimeout(makeConfetti,800));
+  </script>
+
+</body>
+</html>
